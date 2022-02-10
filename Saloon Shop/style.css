@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "GeckoLunch";
+    src: url(GeckoLunch.ttf);
+}
+nav{
+    border-bottom: 1px solid whitesmoke;
+}
+.my-font{
+    font-family: GeckoLunch;
+}
+.my-link{
+    color: white;
+}
+.my-link:hover{
+    color: rgb(199, 199, 199);
+}
+.my-banner{
+    background:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0,0,0,0.3)), url("resource/bg.jpg");
+    background-size: cover;
+    padding: 100px;
+    text-align: center;
+    color: white;
+}
+.my-button{
+    border: 2px solid rgb(247, 195, 132);
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+h1,h2,h3,h4{
+    color: white;
+    margin: 15px 0;
+}
+p{
+    color: rgb(196, 196, 196);
+}
+.my-icon{
+    font-size: 20px;
+    color: rgb(247, 195, 132);
+}
+.my-service , .my-contact, .my-counter,footer{
+    background-color: rgb(39, 39, 39);
+}
+.my-service img{
+    border: 2px solid white ;
+    padding: 10px;
+    background: transparent;
+}
+.my-contact input{
+    background: transparent;
+    color: white;
+    border: 1px rgb(240, 240, 240) solid;
+    border-radius: 0;
+    padding: 5px;
+}
+#myTopBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
