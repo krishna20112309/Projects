@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2b56b0c311204c169ae41140db92510e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_2b56b0c311204c169ae41140db92510e" ></div>
+        
+</body>
+<script>    
+    
+            var map_2b56b0c311204c169ae41140db92510e = L.map(
+                "map_2b56b0c311204c169ae41140db92510e",
+                {
+                    center: [28.6453, 77.2128],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_19805d45de6842418c938e7f1b630ea7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2b56b0c311204c169ae41140db92510e);
+        
+    
+            var circle_marker_cb8aa2282cc0478190f6e2bfd05b8574 = L.circleMarker(
+                [28.6453, 77.2128],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_2b56b0c311204c169ae41140db92510e);
+        
+    
+        var popup_9dfba1b437ef44d19563e146b3f92369 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7aad2fcece664422882430a836a4364f = $(`<div id="html_7aad2fcece664422882430a836a4364f" style="width: 100.0%; height: 100.0%;">Delhi</div>`)[0];
+            popup_9dfba1b437ef44d19563e146b3f92369.setContent(html_7aad2fcece664422882430a836a4364f);
+        
+
+        circle_marker_cb8aa2282cc0478190f6e2bfd05b8574.bindPopup(popup_9dfba1b437ef44d19563e146b3f92369)
+        ;
+
+        
+    
+    
+            var marker_701ca60d8d094b179218ebd82f20c80c = L.marker(
+                [28.6453, 77.2128],
+                {}
+            ).addTo(map_2b56b0c311204c169ae41140db92510e);
+        
+    
+        var popup_533521eca0c749f3b52d07a14473880d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93e5469b1b9f464c94da41f08cbd46d6 = $(`<div id="html_93e5469b1b9f464c94da41f08cbd46d6" style="width: 100.0%; height: 100.0%;">Delhi</div>`)[0];
+            popup_533521eca0c749f3b52d07a14473880d.setContent(html_93e5469b1b9f464c94da41f08cbd46d6);
+        
+
+        marker_701ca60d8d094b179218ebd82f20c80c.bindPopup(popup_533521eca0c749f3b52d07a14473880d)
+        ;
+
+        
+    
+</script>
